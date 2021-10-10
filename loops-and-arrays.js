@@ -4,7 +4,7 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
-const names = ["Henk", "Piet", "Fred", "Joop" /*heb zelf extra namen toegevoegd om script te testen*/, "kip", "kip", "kip"];
+const names = ["Henk", "Piet", "Fred", "Joop" /*heb zelf extra namen toegevoegd om script te testen*/, "kip", "kip", "kip", "kip"];
 for (let i = 0; i < names.length; i++) {
     console.log(names[i]+ "je");
 }
