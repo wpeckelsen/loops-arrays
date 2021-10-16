@@ -6,8 +6,9 @@
 // Hoera!
 // ==========================================
 
-for (let i= 0; i <3; i++)
-{ console.log("Hoera!") };
+for (let i= 0; i <3; i++) {
+    console.log("Hoera!")
+}
 
 
 // ==========================================
@@ -19,10 +20,17 @@ for (let i= 0; i <3; i++)
 // loop...
 // klaar!
  // ==========================================
+const looop = "loop...";
+const ready = "klaar!";
+const anotherone = "nog nie klaar"
 
-for (let i= 0; i <5; i++) {
-    console.log("loop...");
-    if (i===4) {console.log("klaar!")};
+
+for (let i= 0; i <4; i++) {
+    console.log(looop);
+
+    if (i === 3) {
+        console.log(ready);
+    }
 }
 
 // ==========================================
@@ -42,8 +50,12 @@ for (let i= 0; i <5; i++) {
 // ==========================================
 
 for (let i = 0; i < 16; i++) {
-    if (i%2 === 0) { console.log(i, "is even");}
-    if (i%2 === 1) { console.log(i, "is oneven");}
+    if (i % 2 === 0) {
+        console.log(i, "is even");
+    }
+    if (i % 2 === 1) {
+        console.log(i, "is oneven");
+    }
 }
 
 // ==========================================
@@ -63,9 +75,18 @@ for (let i = 0; i < 16; i++) {
 // ==========================================
 
 for ( let i = 0; i < 10; i++ ) {
-    if ( i < 3 ) { console.log( i) };
+    if (i < 3) {
+        console.log(i)
+    }
+    ;
 
-    if ( i > 2 && i < 6 ) { console.log( ">", i) };
+    if (i > 2 && i < 6) {
+        console.log(">", i)
+    }
+    ;
 
-    if ( i > 5 && i < 10 ) { console.log( ">>", i) };
-};
+    if (i > 5) {
+        console.log(">>", i)
+    }
+    ;
+}
